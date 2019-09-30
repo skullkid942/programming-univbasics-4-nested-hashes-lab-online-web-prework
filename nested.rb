@@ -130,6 +130,7 @@ def adding_to_dennis
         }
      }
      
-     programmer_hash[:dennis_ritchie][:known_for][:"assembly"]
+     programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+     return programmer_hash
 
 end
